@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Poppins:wght@600&display=swap");
+
+:root {
+  --bg-color: #fcedf4;
+  --text-color: #0c276b;
+}
+
+body {
+  color: var(--text-color);
+  background-color: var(--bg-color);
+  text-align: center;
+
+  font-family: "Poppins", sans-serif;
+}
+
+nav p {
+  padding: 1rem;
+  font-size: large;
+  border: 1px solid;
+  border-color: var(--text-color);
+  border-left: 0;
+  border-right: 0;
+  /* border-top: 0;
+  border-right: 0;
+  border-left: 0;
+  border-bottom: 2px; */
+}
+
+nav p a {
+  text-decoration: none;
+  color: var(--text-color);
+}
+
+.banner {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  font-family: "Lora", serif;
+  font-size: large;
+  padding: 1rem;
+  max-width: 400px;
+  background-color: var(--text-color);
+  color: whitesmoke;
+}
+.banner a {
+  text-decoration: none;
+  color: var(--bg-color);
+}
+.header-content {
+  font-family: "Lora", serif;
+  font-size: larger;
+}
+.header-content h1 {
+  font-family: "Poppins", sans-serif;
+}
+header button {
+  border: none;
+  background-color: var(--bg-color);
+  font-size: 50px;
+  color: var(--text-color);
+  border-radius: 100rem;
+  border: 2px solid;
+  cursor: pointer;
+}
+.header-content img {
+  margin: 3rem;
+  max-width: 800px;
+  box-shadow: 1px 1px 50px #0c276b;
+}
+
+.content {
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-top: 15%;
+  margin-bottom: 10%;
+  max-width: 100vh;
+  min-height: 80vh;
+  border: solid;
+  border-right: 0;
+  border-top: 0;
+  border-bottom: 0;
+  border-color: var(--text-color);
+}
+
+.heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 50px;
+  max-width: 400px;
+  display: block;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    margin: 1rem;
+  }
+  .header-content img {
+    margin: 3rem;
+    max-width: 250px;
+    box-shadow: none;
+  }
+  .heading {
+    font-family: "Poppins", sans-serif;
+    font-size: 30px;
+    max-width: 400px;
+    display: block;
+    margin: auto;
+    padding-top: 1rem;
+  }
+  .content {
+    border: none;
+  }
+}
+
+#bday-input {
+  padding: 1rem;
+  margin: 1rem;
+  font-family: "Lora", serif;
+  border-color: var(--text-color);
+  color: var(--text-color);
+}
+
+#check-btn {
+  padding: 1rem;
+  margin: 1rem;
+  font-family: "Lora", serif;
+  border-color: var(--text-color);
+  color: var(--text-color);
+  background-color: aliceblue;
+  font-weight: bold;
+  font-size: medium;
+}
+
+#result {
+  font-family: "Lora", serif;
+  font-size: larger;
+  max-width: 400px;
+  text-align: center;
+  display: none;
+  margin: auto;
+  border: 2px solid;
+  border-color: var(--text-color);
+  padding: 0.5rem;
+}
+
+#loader {
+  display: none;
+}
+
+#loader img {
+  max-width: 100px;
+  padding-top: 1rem;
+}
+.about {
+  font-family: "Lora", serif;
+  font-size: medium;
+  max-width: 60%;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+footer {
+  padding-top: 1rem;
+  font-size: large;
+  border: 1px solid;
+  border-color: var(--text-color);
+  border-left: 0;
+  border-right: 0;
+  text-align: center;
+  font-family: "Lora", serif;
+  /* border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 2px; */
+}
+footer ul {
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+footer ul li {
+  display: inline;
+  padding: 1rem;
+  font-weight: bold;
+  margin: auto;
+}
+footer li a {
+  text-decoration: none;
+  color: var(--text-color);
+}
